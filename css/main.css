@@ -1554,7 +1554,7 @@ pre code {
   width: 100%;
 }
 .with-love {
-  color: #f00;
+  color: #fac720;
   display: inline-block;
   margin: 0 5px;
 }
@@ -2249,6 +2249,13 @@ ul.breadcrumb li:last-child {
 .tag-cloud-10 {
   border-bottom-color: #111;
   color: #111;
+}
+mjx-container[jax='CHTML'][display='true'],
+.has-jax {
+  overflow: auto hidden;
+}
+mjx-container[display='true'] + br {
+  display: none;
 }
 .use-motion .animated {
   animation-fill-mode: none;
