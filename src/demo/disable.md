@@ -7,7 +7,7 @@ category:
 tag:
   - 禁用
 
-navbar: true
+navbar: false
 sidebar: true
 
 breadcrumb: false
@@ -20,7 +20,7 @@ next: false
 comment: false
 footer: false
 
-backtotop: false
+backtotop: true
 ---
 
 你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。
