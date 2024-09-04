@@ -4,7 +4,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://hcx1999.github.io",
 
   author: {
     name: "hcx1999",
@@ -20,7 +20,7 @@ export default hopeTheme({
   docsDir: "src",
 
   // 导航栏
-  // navbar,
+  navbar,
 
   // 侧边栏
   sidebar,
