@@ -1,10 +1,10 @@
 ---
+title: 关于我
+date: 2024-9-4
 icon: circle-info
-cover: /assets/images/cover3.jpg
-category: About
+# cover: /assets/images/cover3.jpg
+category: 其他
 ---
-
-# 关于我
 
 你好，我是hcx1999，既不叫hcx也不是出生于1999
 

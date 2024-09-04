@@ -15,8 +15,6 @@ export default navbar([
         children: [
           { text: "苹果1", icon: "pen-to-square", link: "1" },
           { text: "苹果2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
         ],
       },
       {
@@ -34,8 +32,6 @@ export default navbar([
             icon: "pen-to-square",
             link: "2",
           },
-          "3",
-          "4",
         ],
       },
       { text: "樱桃", icon: "pen-to-square", link: "cherry" },
@@ -43,10 +39,5 @@ export default navbar([
       "tomato",
       "strawberry",
     ],
-  },
-  {
-    text: "V2 文档",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
   },
 ]);
