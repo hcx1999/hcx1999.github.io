@@ -1,6 +1,6 @@
 ---
 title: 主要功能与配置演示
-index: true
+index: false
 icon: laptop-code
 category:
   - TEST

@@ -13,15 +13,14 @@ author: Ms.Hope
 date: 2020-01-01
 # 一个页面可以有多个分类
 category:
-  - 使用指南
+  - TEST
 # 一个页面可以有多个标签
 tag:
-  - 页面配置
-  - 使用指南
+  - TEST
 # 此页面会在文章列表置顶
-sticky: true
+sticky: false
 # 此页面会出现在星标文章中
-star: true
+star: false
 # 你可以自定义页脚
 footer: 这是测试显示的页脚
 # 你可以自定义版权信息

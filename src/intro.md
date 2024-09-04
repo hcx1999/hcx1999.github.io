@@ -1,6 +1,7 @@
 ---
 icon: circle-info
 cover: /assets/images/cover3.jpg
+category: About
 ---
 
 # 关于我

@@ -1,5 +1,5 @@
 ---
-home: true
+home: false
 layout: BlogHome
 icon: home
 title: HCX1999的博客
