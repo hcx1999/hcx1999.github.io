@@ -1,6 +1,7 @@
 ---
 home: false
-layout: BlogHome
+# layout: BlogHome
+sidebar: true
 icon: home
 title: HCX1999的博客
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
