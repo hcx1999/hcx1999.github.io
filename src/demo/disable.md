@@ -3,12 +3,12 @@ title: 布局与功能禁用
 icon: gears
 order: 4
 category:
-  - 使用指南
+  - TEST
 tag:
-  - 禁用
+  - TEST
 
 navbar: false
-sidebar: true
+sidebar: false
 
 breadcrumb: false
 pageInfo: false
@@ -17,10 +17,10 @@ editLink: false
 lastUpdated: false
 prev: false
 next: false
-comment: true
-footer: true
+comment: false
+footer: false
 
-backtotop: true
+backtotop: false
 ---
 
 你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。
