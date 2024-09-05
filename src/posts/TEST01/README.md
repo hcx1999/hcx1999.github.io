@@ -13,14 +13,7 @@ footer: false
 
 $$
 \begin{align}
-dy - dx - \varepsilon cosy dy &= 0
-\frac{dy}{dx} &= \frac1{1 - \varepsilon \emph{cos} y}
+dy - dx - \varepsilon cos y dy &= 0
+\frac{dy}{dx} &= \frac1{1 - \varepsilon cos y}
 \end{align}
-$$
-
-$$
-\begin{equation}
-dy - dx - \varepsilon cosy dy &= 0
-\frac{dy}{dx} &= \frac1{1 - \varepsilon \emph{cos} y}
-\end{equation}
 $$
