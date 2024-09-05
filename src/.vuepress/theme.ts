@@ -1,4 +1,3 @@
-
 import { hopeTheme } from "vuepress-theme-hope";
 
 import navbar from "./navbar.js";
