@@ -28,12 +28,19 @@ $$E &= mc^2\\
 
 ### 标题 3
 
-$$\begin{document}
+$$\begin{align}
 this is a document\\
 test1 % 注释
 test2
 中文
-\end{document}$$
+\end{align}$$
+
+$$\begin{aligned}
+this is a document\\
+test1 % 注释
+test2
+中文
+\end{aligned}$$
 
 ## 标题 2
 
