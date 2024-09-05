@@ -12,23 +12,6 @@ footer: false
 ---
 
 $$
-\begin{align}
-% \documentclass[UTF8]{ctexart}
-\usepackage{graphicx}
-\usepackage{booktabs}
-\usepackage{multirow}
-\usepackage{geometry}
-    \geometry{a4paper,centering,scale=0.75}
-\usepackage{amsmath}
-\usepackage{mathtools}
-\usepackage{enumitem}
-\usepackage{float}
-\title{\textbf{穿越沙漠最佳策略的研究}}
-\usepackage{tikz,mathpazo}
-\usetikzlibrary{shapes.geometric, arrows}
-\usepackage{flowchart}
-\begin{document}
-\maketitle
 \begin{abstract}
 	
 	穿越沙漠是一项在规定时间内到达终点，并最终保留尽可能多资金的游戏。
@@ -381,6 +364,4 @@ W_{0} = 10000
 +p9+9o0opllllll+lo\end{figure}
 	xzxcccv.
 \end{enumerate}
-\end{document}
-\end{align}
 $$
