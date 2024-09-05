@@ -23,24 +23,19 @@ $$E = mc^2\\
 
 ## 标题 2
 
-$$E &= mc^2\\
-&= \frac{a}{b}$$
+$$\begin{align}
+E &= mc^2\\
+&= \frac{a}{b}
+\end{align}$$
 
 ### 标题 3
 
 $$\begin{align}
-this is a document\\
-test1 % 注释
-test2
+this \  is \  a \  document\\
+test1\\ % 注释
+test2\\
 中文
 \end{align}$$
-
-$$\begin{aligned}
-this is a document\\
-test1 % 注释
-test2
-中文
-\end{aligned}$$
 
 ## 标题 2
 
