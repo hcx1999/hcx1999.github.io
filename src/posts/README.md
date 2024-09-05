@@ -16,4 +16,4 @@ Articles 的 README 页面
 
 ## TEST:
 
-### [MarkdownTest](https://hcx1999.github.io/posts/MarkdownTest/latex.html)
+### [MarkdownTest](https://hcx1999.github.io/posts/TEST/MarkdownTest.html)
