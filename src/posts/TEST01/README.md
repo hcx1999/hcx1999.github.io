@@ -39,7 +39,7 @@ $$
 
 ### 本地图片：
 
-![](cover1.jpg)
+<!-- ![](cover1.jpg) -->
 
 ## Markdown：
 
