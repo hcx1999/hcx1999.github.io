@@ -39,7 +39,7 @@ $$
 
 ### 本地图片：
 
-![](assets/images/cover1.jpg)
+<!-- ![](assets/images/cover1.jpg) -->
 
 ## Markdown：
 
