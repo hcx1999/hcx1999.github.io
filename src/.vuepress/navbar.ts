@@ -1,11 +1,12 @@
 import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
-  // "/",
+  "/",
   // 主页链接
   "/demo/",
+  "/posts/",
   // {
-  //   text: "博文",
+  //   text: "文章",
   //   icon: "pen-to-square",
   //   prefix: "/posts/",
   //   children: [
