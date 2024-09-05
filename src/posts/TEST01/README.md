@@ -39,7 +39,7 @@ $$
 
 ### 本地图片：
 
-<!-- ![](assets/images/cover1.jpg) -->
+![](cover1.jpg)
 
 ## Markdown：
 
@@ -59,4 +59,4 @@ print(int(input()), int(input()))
 
 ## 导入文件：
 
-<!-- @include: temp.txt -->
+<!-- @include: test.txt -->
