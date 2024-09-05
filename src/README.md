@@ -3,6 +3,7 @@ title: 关于本站：
 date: 2024-8-30
 icon: home
 
+pageinfo: false
 contributors: false
 editLink: false
 prev: false
