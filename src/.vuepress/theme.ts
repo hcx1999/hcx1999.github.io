@@ -1,3 +1,4 @@
+import { defineUserConfig } from "vuepress";
 import { hopeTheme } from "vuepress-theme-hope";
 import { catalogPlugin } from '@vuepress/plugin-catalog'
 
