@@ -39,6 +39,7 @@ $$
 
 ### 本地图片：
 
+![](cover1.jpg)
 
 ## Markdown：
 
@@ -57,3 +58,5 @@ print(int(input()), int(input()))
 - [x] 勾选的任务
 
 ## 导入文件：
+
+<!-- @include: test.txt -->
