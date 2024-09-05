@@ -1,5 +1,5 @@
 ---
-title: TEST
+title: MarkdownTest
 icon: pen-to-square
 date: 2022-01-01
 
@@ -9,7 +9,8 @@ editLink: false
 prev: false
 next: false
 footer: false
-headerDepth: 4
+sidebarDepth: 6
+headerDepth: 6
 ---
 
 ## 二级标题
