@@ -9,6 +9,7 @@ editLink: false
 prev: false
 next: false
 footer: false
+headerDepth: 4
 ---
 
 # 一级标题
