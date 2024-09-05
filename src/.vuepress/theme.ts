@@ -1,4 +1,5 @@
 import { hopeTheme } from "vuepress-theme-hope";
+import { catalogPlugin } from '@vuepress/plugin-catalog'
 
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
@@ -104,6 +105,8 @@ export default hopeTheme({
     components: {
       components: ["Badge", "VPCard"],
     },
+
+    catalog: false,
 
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。
     mdEnhance: {
