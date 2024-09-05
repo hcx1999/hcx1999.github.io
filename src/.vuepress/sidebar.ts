@@ -19,7 +19,7 @@ export default sidebar({
       text: "Articles",
       icon: "book",
       prefix: "posts/",
-      link: "posts/",
+      // link: "posts/",
       children: "structure",
     },
     "intro",
