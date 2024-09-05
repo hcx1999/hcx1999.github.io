@@ -1,5 +1,5 @@
 ---
-title: Content
+title: Articles
 icon: home
 date: 2022-01-01
 
