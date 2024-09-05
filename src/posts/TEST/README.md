@@ -22,7 +22,7 @@ headerDepth: 4
 
 ###### 六级标题
 
-## $LATEX$：
+## LATEX：
 
 $$
 \begin{align}

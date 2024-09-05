@@ -1,5 +1,5 @@
 ---
-title: HCX1999：
+title: HomePage
 date: 2024-8-30
 icon: home
 
