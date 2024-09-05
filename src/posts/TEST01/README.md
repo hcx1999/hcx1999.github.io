@@ -57,6 +57,4 @@ print(int(input()), int(input()))
 - [ ] 未勾选的任务
 - [x] 勾选的任务
 
-## 导入文件：
-
-<!-- @include: ./demo/layout.md -->
+## 其他：
