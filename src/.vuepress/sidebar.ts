@@ -1,8 +1,8 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
-  "": [
-    "/",
+  "/": [
+    "",
     {
       text: "关于本站",
       icon: "laptop-code",
