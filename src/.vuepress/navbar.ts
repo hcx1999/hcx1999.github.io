@@ -3,7 +3,7 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   // "/",
   // 主页链接
-  // "/demo/",
+  "/demo/",
   // {
   //   text: "博文",
   //   icon: "pen-to-square",

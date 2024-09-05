@@ -4,6 +4,13 @@ date: 2024-9-4
 icon: circle-info
 # cover: /assets/images/cover3.jpg
 category: 其他
+
+pageInfo: false
+contributors: false
+editLink: false
+prev: false
+next: false
+footer: false
 ---
 
 你好，我是hcx1999，既不叫hcx也不是出生于1999
