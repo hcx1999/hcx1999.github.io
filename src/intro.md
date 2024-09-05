@@ -1,5 +1,5 @@
 ---
-title: 关于我
+title: About
 date: 2024-9-4
 icon: circle-info
 # cover: /assets/images/cover3.jpg
