@@ -1,21 +1,21 @@
 ---
-cover: /assets/images/cover2.jpg
+title: TestPage：
+date: 2024-9-5
 icon: pen-to-square
-date: 2022-01-12
-category:
-  - 蔬菜
-tag:
-  - 红
-  - 圆
-star: true
-sticky: true
+
+pageInfo: false
+contributors: false
+editLink: false
+prev: false
+next: false
+footer: false
 ---
 
 # 番茄
 
 ## 标题 2
 
-这里是内容。
+$$E=mc^2$$
 
 ### 标题 3
 
