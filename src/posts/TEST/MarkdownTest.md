@@ -9,8 +9,6 @@ editLink: false
 prev: false
 next: false
 footer: false
-sidebarDepth: 6
-headerDepth: 6
 ---
 
 ## 二级标题

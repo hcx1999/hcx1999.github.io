@@ -1,7 +1,7 @@
 ---
 title: 编译指令与MAKEFILE
 date: 2024-9-6
-icon: home
+icon: pen-to-square
 
 pageInfo: false
 contributors: false

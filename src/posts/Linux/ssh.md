@@ -1,7 +1,7 @@
 ---
 title: ssh远程传输
 date: 2024-9-7
-icon: home
+icon: pen-to-square
 
 pageInfo: false
 contributors: false
