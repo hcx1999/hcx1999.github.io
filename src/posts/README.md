@@ -1,6 +1,5 @@
 ---
 title: Content
-icon: home
 date: 2022-01-01
 
 pageInfo: false
