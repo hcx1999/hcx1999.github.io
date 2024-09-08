@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.14" />
+    <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.52" />
+    <style>
+      html {
+        background: var(--bg-color, #fff);
+      }
+
+      html[data-theme="dark"] {
+        background: var(--bg-color, #1d1e1f);
+      }
+
+      body {
+        background: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <meta property="og:url" content="https://hcx1999.github.io/posts/Linux/conda.html"><meta property="og:site_name" content="HCX1999"><meta property="og:title" content="Conda 配置"><meta property="og:description" content="安装与使用"><meta property="og:type" content="article"><meta property="og:locale" content="zh-CN"><meta property="og:updated_time" content="2024-09-08T05:34:38.000Z"><meta property="article:author" content="hcx1999"><meta property="article:modified_time" content="2024-09-08T05:34:38.000Z"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Conda 配置","image":[""],"dateModified":"2024-09-08T05:34:38.000Z","author":[{"@type":"Person","name":"hcx1999","url":"https://hcx1999.github.io/"}]}</script><title>Conda 配置 | HCX1999</title><meta name="description" content="安装与使用">
+    <link rel="preload" href="/assets/style-D0dESxQ0.css" as="style"><link rel="stylesheet" href="/assets/style-D0dESxQ0.css">
+    <link rel="modulepreload" href="/assets/app-9d-bEw6w.js"><link rel="modulepreload" href="/assets/conda.html-BMyh0-WE.js"><link rel="modulepreload" href="/assets/plugin-vue_export-helper-DlAUqK2U.js">
+    <link rel="prefetch" href="/assets/index.html-BQnUCcYA.js" as="script"><link rel="prefetch" href="/assets/README_backup.html-BjqKcWzw.js" as="script"><link rel="prefetch" href="/assets/intro.html-BkUwAwgG.js" as="script"><link rel="prefetch" href="/assets/index.html-Wa7mIJMI.js" as="script"><link rel="prefetch" href="/assets/disable.html-C0mQXT7V.js" as="script"><link rel="prefetch" href="/assets/encrypt.html-w2yitpnT.js" as="script"><link rel="prefetch" href="/assets/layout.html-BtDt2znG.js" as="script"><link rel="prefetch" href="/assets/markdown.html-DVac8_R2.js" as="script"><link rel="prefetch" href="/assets/page.html-DVo3GJWI.js" as="script"><link rel="prefetch" href="/assets/index.html-DeoJe2CB.js" as="script"><link rel="prefetch" href="/assets/compile.html-Dm2Hgykp.js" as="script"><link rel="prefetch" href="/assets/ssh.html-DG84mDY1.js" as="script"><link rel="prefetch" href="/assets/MarkdownTest.html-DEsSpBAc.js" as="script"><link rel="prefetch" href="/assets/Model.html-BeXsBlnE.js" as="script"><link rel="prefetch" href="/assets/404.html-D6sPb8-G.js" as="script"><link rel="prefetch" href="/assets/index.html-mYRL0P5W.js" as="script"><link rel="prefetch" href="/assets/index.html-DzJaRXtS.js" as="script"><link rel="prefetch" href="/assets/index.html-CC7s-Iio.js" as="script"><link rel="prefetch" href="/assets/index.html-DjeKcEdL.js" as="script"><link rel="prefetch" href="/assets/index.html-DH_fxJJC.js" as="script"><link rel="prefetch" href="/assets/index.html-ChykZVZ_.js" as="script"><link rel="prefetch" href="/assets/index.html-B4ZrIRsf.js" as="script"><link rel="prefetch" href="/assets/index.html-Cbh82ahp.js" as="script"><link rel="prefetch" href="/assets/photoswipe.esm-GXRgw7eJ.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">跳至主要內容</a><!--]--><!--[--><div class="theme-container no-navbar external-link-icon pure has-toc"><!----><!----><div class="toggle-sidebar-wrapper"><span class="arrow start"></span></div><aside id="sidebar" class="vp-sidebar"><!----><ul class="vp-sidebar-links"><li><a class="route-link auto-link vp-sidebar-link" href="/" aria-label="HomePage"><!--[--><span class="font-icon icon fa-fw fa-sm fas fa-home" style=""></span><!--]-->HomePage<!----></a></li><li><section class="vp-sidebar-group"><p class="vp-sidebar-header clickable active"><span class="font-icon icon fa-fw fa-sm fas fa-book" style=""></span><a class="route-link route-link-active auto-link vp-sidebar-title no-external-link-icon" href="/posts/" aria-label="Articles"><!---->Articles<!----></a><!----></p><ul class="vp-sidebar-links"><li><a class="route-link auto-link vp-sidebar-link" href="/posts/" aria-label="Content"><!---->Content<!----></a></li><li><section class="vp-sidebar-group"><button class="vp-sidebar-header clickable active" type="button"><!----><span class="vp-sidebar-title">Linux</span><span class="vp-arrow down"></span></button><ul class="vp-sidebar-links"><li><a class="route-link route-link-active auto-link vp-sidebar-link active" href="/posts/Linux/conda.html" aria-label="Conda 配置"><!--[--><span class="font-icon icon fa-fw fa-sm fas fa-pen-to-square" style=""></span><!--]-->Conda 配置<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/posts/Linux/ssh.html" aria-label="ssh远程传输"><!--[--><span class="font-icon icon fa-fw fa-sm fas fa-pen-to-square" style=""></span><!--]-->ssh远程传输<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/posts/Linux/compile.html" aria-label="编译指令与MAKEFILE"><!--[--><span class="font-icon icon fa-fw fa-sm fas fa-pen-to-square" style=""></span><!--]-->编译指令与MAKEFILE<!----></a></li></ul></section></li><li><section class="vp-sidebar-group"><button class="vp-sidebar-header clickable" type="button"><!----><span class="vp-sidebar-title">TEST</span><span class="vp-arrow end"></span></button><!----></section></li></ul></section></li><li><a class="route-link auto-link vp-sidebar-link" href="/intro.html" aria-label="About"><!--[--><span class="font-icon icon fa-fw fa-sm fas fa-circle-info" style=""></span><!--]-->About<!----></a></li></ul><!----></aside><!--[--><!--[--><main id="main-content" class="vp-page"><!--[--><!----><!----><nav class="vp-breadcrumb disable"></nav><div class="vp-page-title"><h1><span class="font-icon icon fa-fw fa-sm fas fa-pen-to-square" style=""></span>Conda 配置</h1><!----><hr></div><!----><!----><div class="theme-hope-content"><p><a href="https://zhuanlan.zhihu.com/p/440548295" target="_blank" rel="noopener noreferrer">安装与使用</a></p></div><!----><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><div class="update-time"><span class="vp-meta-label">上次编辑于: </span><!----></div><!----></div></footer><!----><!----><!----><!--]--></main><!--]--><!--]--><!----></div><!--]--><!--]--><!--[--><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-9d-bEw6w.js" defer></script>
+  </body>
+</html>
