@@ -1,7 +1,6 @@
 ---
 title: MarkdownTest
 icon: pen-to-square
-date: 2022-01-01
 
 pageInfo: false
 contributors: false
@@ -55,5 +54,3 @@ print(int(input()), int(input()))
 
 - [ ] 未勾选的任务
 - [x] 勾选的任务
-
-## 其他：
