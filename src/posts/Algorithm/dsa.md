@@ -1,13 +1,13 @@
 ---
-title: MarkdownTest
+title: 数算选做
 icon: pen-to-square
 
-pageInfo: false
-contributors: false
-editLink: false
-prev: false
-next: false
-footer: false
+# pageInfo: false
+# contributors: false
+# editLink: false
+# prev: false
+# next: false
+# footer: false
 ---
 
 ## 线性数据结构
