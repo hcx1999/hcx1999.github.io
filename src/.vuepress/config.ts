@@ -1,6 +1,6 @@
 import { defineUserConfig } from "vuepress";
-
 import theme from "./theme.js";
+import { shikiPlugin } from '@vuepress/plugin-shiki';
 
 export default defineUserConfig({
   base: "/",

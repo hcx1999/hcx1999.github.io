@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.14",
+    "@vuepress/plugin-shiki": "^2.0.0-rc.39",
     "katex": "^0.16.11",
     "mathjax-full": "^3.2.2",
     "vue": "^3.4.31",
@@ -19,6 +20,7 @@
     "vuepress-theme-hope": "2.0.0-rc.52"
   },
   "dependencies": {
+    "shiki": "^1.22.2",
     "vuepress-theme-sidebar": "^0.1.0"
   }
 }
