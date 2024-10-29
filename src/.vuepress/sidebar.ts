@@ -2,7 +2,7 @@ import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
   "/": [
-    "",
+    // "",  //This is File "README"
     // {
     //   text: "关于本站",
     //   icon: "laptop-code",
@@ -22,6 +22,6 @@ export default sidebar({
       link: "posts/",
       children: "structure",
     },
-    "intro",
+    // "intro",  //This is File "About"
   ],
 });
