@@ -1,0 +1,25 @@
+/* 确保整个页面的内容居中 */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* 背景颜色 */
+  }
+  
+  /* 加载动画的容器 */
+  .loader-container {
+    /* 可以设置容器的宽高，或者不设置，图片将根据其自身尺寸显示 */
+    /* width: 100px; */
+    /* height: 100px; */
+    text-align: center; /* 确保图片居中显示 */
+  }
+  
+  /* 加载动画图片 */
+  .loader {
+    max-width: 10%; /* 限制图片最大宽度为容器宽度 */
+    max-height: 10%; /* 限制图片最大高度为容器高度 */
+    width: auto; /* 保持图片原始宽高比 */
+    height: auto; /* 保持图片原始宽高比 */
+  }
